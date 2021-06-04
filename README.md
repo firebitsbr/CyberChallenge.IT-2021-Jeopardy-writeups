@@ -46,41 +46,41 @@ Flagify 1
 
 In this challange I will use [Burp Suite](https://portswigger.net/burp), and I will use intercept function to see, edit and stop get and post requests. To do so, go to Proxy>>Intercept>>Open browser (and use it). And be sure that intercept is on!
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img0.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img0.PNG)
 
 This is the first site we have.
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img1.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img1.PNG)
 
 This is the second one.
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img2.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img2.PNG)
 
 I registed an account on the first one.
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img3.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img3.PNG)
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img4.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img4.PNG)
 
 And on the second one too.
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img5.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img5.PNG)
 
 On the first website there's this shop. I tried to buy everything with the "normal way", but everything was worthless and flag was unable to buy. So I decided to try to buy memecat with "Buy with payflag".
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img6.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img6.PNG)
 
 And looking at get and post requests I saw these so I decided to change "memecat" to "flag" and see what would happen.
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img7.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img7.PNG)
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img8.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img8.PNG)
 
 It seemed It worked, I accepted the payment with "Yes" button...
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img9.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img9.PNG)
 
 And I got the flag:
 
-![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/tree/main/imgs/Flagify1/img10.PNG)
+![](https://github.com/sandrulino01/CyberChallenge.IT-2021-Jeopardy-writeups/blob/main/imgs/Flagify1/img10.PNG)
 > Flag: CCIT{g0go_fL4w_go_wr0ng}
